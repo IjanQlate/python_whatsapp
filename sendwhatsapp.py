@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.options import Options
 import time
 # Options
 options = Options()
-options.add_argument("user-data-dir=C:\\Users\\Hapizan\\AppData\\Local\\Google\\Chrome\\User Data\\Cache")
+options.add_argument("user-data-dir=C:\\Users\\xxxx\\AppData\\Local\\Google\\Chrome\\User Data\\Cache")  #search cache folder, update if required
 
 print('\n\nSCAN THE QR CODE AND DO NOT PRESS ANY KEY UNTIL NEXT INSTRUCTION, ignore lines stating errors if any\n\n')
 try:
